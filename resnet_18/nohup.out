@@ -1,0 +1,715 @@
+device: cpu
+Traceback (most recent call last):
+  File "test_ml3.py", line 255, in <module>
+    dl_test, df_test = get_test_data(idx_tta)
+  File "test_ml3.py", line 235, in get_test_data
+    df_test, ohe_tags_test, transform_val, path=[path_test_file_1, path_test_file_2],
+NameError: name 'path_test_file_2' is not defined
+device: cpu
+Images shape: torch.Size([64, 3, 224, 224]), labels shape: torch.Size([64, 27])
+HBox(children=(FloatProgress(value=0.0, max=16.0), HTML(value='')))
+
+HBox(children=(FloatProgress(value=0.0, max=16.0), HTML(value='')))
+
+HBox(children=(FloatProgress(value=0.0, max=16.0), HTML(value='')))
+
+HBox(children=(FloatProgress(value=0.0, max=16.0), HTML(value='')))
+
+HBox(children=(FloatProgress(value=0.0, max=16.0), HTML(value='')))
+
+HBox(children=(FloatProgress(value=0.0, max=16.0), HTML(value='')))
+
+Traceback (most recent call last):
+  File "test_resnet_18.py", line 241, in <module>
+    Y_hat_test = (Y_hat_test > threshs).astype(float)
+NameError: name 'threshs' is not defined
+[I 15:31:36.208 NotebookApp] Serving notebooks from local directory: /data2/ntua/code/resnet_vm3
+[I 15:31:36.208 NotebookApp] Jupyter Notebook 6.4.8 is running at:
+[I 15:31:36.208 NotebookApp] http://localhost:8080/?token=bd013bbcad04c55ec86cd60f035db81e3a229343c6971f09
+[I 15:31:36.208 NotebookApp]  or http://127.0.0.1:8080/?token=bd013bbcad04c55ec86cd60f035db81e3a229343c6971f09
+[I 15:31:36.208 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:31:36.212 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/noa/.local/share/jupyter/runtime/nbserver-14286-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8080/?token=bd013bbcad04c55ec86cd60f035db81e3a229343c6971f09
+     or http://127.0.0.1:8080/?token=bd013bbcad04c55ec86cd60f035db81e3a229343c6971f09
+[I 15:32:15.585 NotebookApp] 302 GET /?token=bd013bbcad04c55ec86cd60f035db81e3a229343c6971f09 (127.0.0.1) 1.920000ms
+[W 15:32:24.681 NotebookApp] Notebook ResNet_alex.ipynb is not trusted
+[I 15:32:25.862 NotebookApp] Kernel started: 25a92f06-eeb0-4b9b-a1e2-866adbd12ab8, name: python3
+[W 15:32:59.465 NotebookApp] 404 GET /static/plotly.js?v=20220324153135 (127.0.0.1) 11.520000ms referer=http://127.0.0.1:8080/notebooks/CNN_alex.ipynb
+[I 15:32:59.468 NotebookApp] Kernel started: 4d132db1-283c-4f87-b224-4b665c143b97, name: python3
+[I 15:34:26.988 NotebookApp] Saving file at /ResNet_alex.ipynb
+[W 15:34:26.996 NotebookApp] Notebook ResNet_alex.ipynb is not trusted
+[I 15:34:59.995 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 15:36:42.408 NotebookApp] Forbidden
+[W 15:36:42.410 NotebookApp] 403 GET /api/config/tree?_=1648136202640 (127.0.0.1) 2.520000ms referer=http://127.0.0.1:8080/tree
+[W 15:36:42.412 NotebookApp] Forbidden
+[W 15:36:42.412 NotebookApp] 403 GET /api/config/common?_=1648136202641 (127.0.0.1) 1.000000ms referer=http://127.0.0.1:8080/tree
+[W 15:36:42.414 NotebookApp] Forbidden
+[W 15:36:42.414 NotebookApp] 403 GET /api/terminals?_=1648136202642 (127.0.0.1) 1.070000ms referer=http://127.0.0.1:8080/tree
+[W 15:36:42.415 NotebookApp] Forbidden
+[W 15:36:42.416 NotebookApp] 403 GET /api/kernelspecs (127.0.0.1) 1.210000ms referer=http://127.0.0.1:8080/tree
+[W 15:36:42.418 NotebookApp] Forbidden
+[W 15:36:42.418 NotebookApp] 403 GET /api/sessions?_=1648136202643 (127.0.0.1) 1.320000ms referer=http://127.0.0.1:8080/tree
+[W 15:36:42.419 NotebookApp] Forbidden
+[W 15:36:42.419 NotebookApp] 403 GET /api/terminals?_=1648136202644 (127.0.0.1) 1.000000ms referer=http://127.0.0.1:8080/tree
+[I 15:38:21.506 NotebookApp] Starting buffering for 4d132db1-283c-4f87-b224-4b665c143b97:b4aeb4731db247aca06bd0a4017898e6
+[I 15:38:22.791 NotebookApp] Kernel restarted: 4d132db1-283c-4f87-b224-4b665c143b97
+[I 15:38:22.849 NotebookApp] Restoring connection for 4d132db1-283c-4f87-b224-4b665c143b97:b4aeb4731db247aca06bd0a4017898e6
+[I 15:38:23.530 NotebookApp] Replaying 9 buffered messages
+[I 15:39:00.120 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 15:43:00.702 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 15:47:00.432 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 15:49:00.660 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 15:51:00.878 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 15:53:01.385 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 15:55:00.676 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 15:57:00.768 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 15:59:00.709 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:01:00.507 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:03:00.649 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:05:00.404 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:07:00.701 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:09:00.993 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:09:01.744 NotebookApp] Kernel interrupted: 4d132db1-283c-4f87-b224-4b665c143b97
+[I 16:11:00.473 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:13:01.090 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:15:00.990 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:17:00.388 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:21:00.696 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:27:00.734 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:37:00.502 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:39:00.836 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 16:41:01.059 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 18:07:47.430 NotebookApp] 404 GET /api/contents/scikit_planet.ipynb?type=notebook&content=0&_=1648135978636 (127.0.0.1): No such file or directory: scikit_planet.ipynb
+[W 18:07:47.432 NotebookApp] No such file or directory: scikit_planet.ipynb
+[W 18:07:47.434 NotebookApp] 404 GET /api/contents/scikit_planet.ipynb?type=notebook&content=0&_=1648135978636 (127.0.0.1) 20.850000ms referer=http://127.0.0.1:8080/notebooks/CNN_alex.ipynb
+[I 18:07:48.538 NotebookApp] Uploading file to /scikit_planet.ipynb
+[I 18:09:02.126 NotebookApp] Saving file at /scikit_planet.ipynb
+[I 18:11:01.677 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 18:25:23.411 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 18:25:25.111 NotebookApp] Kernel started: b266a475-9223-45bc-a3db-15778cb38fc5, name: python3
+[I 18:25:27.387 NotebookApp] Starting buffering for 4d132db1-283c-4f87-b224-4b665c143b97:b4aeb4731db247aca06bd0a4017898e6
+[I 18:27:26.493 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 18:27:26.502 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[W 18:29:04.813 NotebookApp] 404 GET /api/contents/scikit_planet.ipynb?type=notebook&content=0&_=1648146323534 (127.0.0.1): No such file or directory: scikit_planet.ipynb
+[W 18:29:04.814 NotebookApp] No such file or directory: scikit_planet.ipynb
+[W 18:29:04.815 NotebookApp] 404 GET /api/contents/scikit_planet.ipynb?type=notebook&content=0&_=1648146323534 (127.0.0.1) 7.540000ms referer=http://127.0.0.1:8080/notebooks/CNN_alex.ipynb
+[I 18:29:06.007 NotebookApp] Uploading file to /scikit_planet.ipynb
+[W 18:29:06.011 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 18:37:26.190 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 18:37:26.195 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 18:45:26.502 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 18:45:26.507 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 18:47:26.831 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 18:47:26.836 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 18:49:26.488 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 18:49:26.492 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 18:51:26.457 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 18:51:26.461 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 18:53:26.362 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 18:53:26.367 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[W 06:21:25.940 NotebookApp] WebSocket ping timeout after 119979 ms.
+[W 06:21:26.615 NotebookApp] WebSocket ping timeout after 119981 ms.
+[I 06:21:30.956 NotebookApp] Starting buffering for b266a475-9223-45bc-a3db-15778cb38fc5:b226055842d94547b8c50e73e9898360
+[I 06:21:31.618 NotebookApp] Starting buffering for 25a92f06-eeb0-4b9b-a1e2-866adbd12ab8:b9767e811bc2474ba9283954132c507f
+[I 09:46:58.514 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 09:46:58.520 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 09:46:59.455 NotebookApp] Restoring connection for b266a475-9223-45bc-a3db-15778cb38fc5:b226055842d94547b8c50e73e9898360
+[I 09:47:32.452 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 09:47:32.457 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 09:49:32.088 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 09:49:32.093 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 09:57:31.604 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 09:57:31.610 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 09:59:31.682 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 09:59:31.688 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:01:31.761 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:01:31.765 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:05:31.898 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:05:31.904 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:07:33.348 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:07:33.353 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:09:31.915 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:09:31.920 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:11:31.828 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:11:31.834 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:13:32.241 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:13:32.246 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:15:31.942 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:15:31.947 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:17:31.881 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:17:31.886 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:19:31.896 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:19:31.901 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:21:31.857 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:21:31.862 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:23:31.890 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:23:31.894 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:25:31.838 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:25:31.842 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:27:31.977 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:27:31.982 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:29:31.847 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:29:31.855 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:31:32.362 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:31:32.367 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:33:31.982 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:33:31.987 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:35:32.342 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:35:32.350 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:37:32.303 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:37:32.308 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:39:32.419 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:39:32.423 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:41:32.348 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:41:32.352 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:43:32.419 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:43:32.489 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:45:32.362 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:45:32.367 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:47:32.344 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:47:32.349 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:49:32.313 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:49:32.318 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:51:32.419 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:51:32.424 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:53:32.527 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:53:32.533 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:55:32.350 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:55:32.355 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:57:32.584 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:57:32.589 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 10:59:32.393 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 10:59:32.398 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 11:03:32.353 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 11:03:32.358 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 11:07:32.343 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 11:07:32.348 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 11:11:32.629 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 11:11:32.634 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 15:19:33.040 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 15:19:33.046 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 15:23:33.618 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 15:23:33.624 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 15:25:33.213 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 15:25:33.219 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 15:27:33.255 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 15:27:33.260 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 15:29:33.478 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 15:29:33.482 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 15:31:33.253 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 15:31:33.257 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 15:33:33.516 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 15:33:33.520 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 15:35:33.214 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 15:35:33.217 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[W 15:37:18.245 NotebookApp] 404 GET /api/kernels/3a5b24e5-d96f-41f5-86ab-38c31dca6889/channels?session_id=4f6517eb338b47198464b485558211ba (127.0.0.1): Kernel does not exist: 3a5b24e5-d96f-41f5-86ab-38c31dca6889
+[W 15:37:18.252 NotebookApp] 404 GET /api/kernels/3a5b24e5-d96f-41f5-86ab-38c31dca6889/channels?session_id=4f6517eb338b47198464b485558211ba (127.0.0.1) 11.480000ms referer=None
+[W 15:37:40.818 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 15:37:42.027 NotebookApp] Kernel started: f572d391-d6e6-423f-a3b7-2db3573028a0, name: python3
+[I 15:39:43.722 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 15:39:43.727 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 15:41:42.525 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 15:41:42.530 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 15:43:33.037 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 15:43:33.040 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 15:45:33.147 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 15:45:33.152 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 15:45:42.639 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 15:45:42.647 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 15:47:33.580 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 15:47:33.584 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 15:49:33.220 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 15:49:33.251 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 15:49:43.409 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 15:49:43.418 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 15:53:43.715 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 15:53:43.722 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 15:55:43.554 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 15:55:43.560 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 15:59:43.636 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 15:59:43.646 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 16:03:43.602 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 16:03:43.611 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 16:07:44.210 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 16:07:44.219 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 16:09:43.916 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 16:09:43.924 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 16:11:43.898 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 16:11:43.906 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 16:13:43.801 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 16:13:43.805 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 16:17:44.293 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 16:17:44.302 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 16:19:43.700 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 16:19:43.705 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 16:21:43.991 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 16:21:43.996 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 16:23:33.189 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 16:23:33.194 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 16:23:43.672 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 16:23:43.677 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 16:25:33.305 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 16:25:33.309 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 16:33:33.303 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 16:33:33.307 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 16:35:33.182 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 16:35:33.185 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 16:37:33.434 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 16:37:33.437 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 16:39:33.543 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 16:39:33.547 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 16:41:20.563 NotebookApp] Creating new notebook in 
+[I 16:41:21.607 NotebookApp] Kernel started: f42ecc7b-3744-4c7d-83c0-ad701ae39026, name: python3
+[I 16:43:21.600 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:45:21.612 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:47:21.613 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:51:33.274 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 16:51:33.278 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 16:53:33.269 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 16:53:33.272 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:05:33.505 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:05:33.508 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:07:33.519 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:07:33.523 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:07:56.157 NotebookApp] Starting buffering for f42ecc7b-3744-4c7d-83c0-ad701ae39026:8708d71bec5b470e80eac898734fa572
+[I 17:09:33.391 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:09:33.394 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:09:43.846 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 17:09:43.851 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 17:11:33.421 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:11:33.427 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:13:33.707 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:13:33.711 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:15:33.427 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:15:33.431 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:17:33.396 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:17:33.399 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:19:33.676 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:19:33.680 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:19:43.956 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 17:19:43.961 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 17:21:33.372 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:21:33.375 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:21:44.292 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 17:21:44.297 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 17:23:33.554 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:23:33.558 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:25:33.590 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:25:33.594 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:27:33.800 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:27:33.804 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:31:33.691 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:31:33.695 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:33:33.831 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:33:33.859 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:38:18.800 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 17:39:33.593 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:39:33.598 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:41:33.487 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:41:33.491 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:45:33.224 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:45:33.228 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:47:33.269 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:47:33.275 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:51:33.371 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:51:33.375 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:53:33.352 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:53:33.356 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:55:33.390 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:55:33.394 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 17:57:33.325 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 17:57:33.329 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 18:01:33.286 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 18:01:33.290 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 18:05:33.875 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 18:05:33.878 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:23:33.821 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:23:33.825 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:27:33.561 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:27:33.566 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:29:33.651 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:29:33.655 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:31:33.758 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:31:33.762 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:33:33.660 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:33:33.663 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:35:33.632 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:35:33.636 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:37:33.660 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:37:33.666 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:39:33.625 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:39:33.629 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:41:33.570 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:41:33.575 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:43:33.617 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:43:33.621 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:45:33.606 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:45:33.610 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:47:33.891 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:47:33.895 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:49:33.530 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:49:33.534 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:51:33.585 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:51:33.589 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:53:33.610 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:53:33.614 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:55:33.684 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:55:33.688 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:57:33.816 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:57:33.821 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 19:59:33.694 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 19:59:33.698 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:01:33.693 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:01:33.698 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:03:33.806 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:03:33.810 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:05:33.803 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:05:33.807 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:07:33.883 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:07:33.889 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:09:34.385 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:09:34.389 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:11:33.823 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:11:33.827 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:13:34.199 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:13:34.203 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:19:33.647 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:19:33.651 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:20:57.455 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 20:21:33.722 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:21:33.727 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:21:44.558 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 20:22:34.310 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 20:23:33.739 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:23:33.742 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:25:33.835 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:25:33.839 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:27:33.793 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:27:33.797 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:29:33.804 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:29:33.808 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:31:16.755 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 20:31:23.891 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 20:31:33.866 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:31:33.869 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:33:33.855 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:33:33.858 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:35:34.214 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:35:34.217 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:37:26.355 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 20:37:33.989 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:37:33.993 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:39:34.261 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:39:34.265 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:40:03.562 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 20:41:33.852 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:41:33.856 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:43:33.824 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:43:33.828 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:45:33.904 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:45:33.908 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:47:33.860 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:47:33.864 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:49:33.861 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:49:33.865 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:51:33.721 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:51:33.725 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:53:33.783 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:53:33.787 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 20:55:33.892 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 20:55:33.896 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 08:41:26.855 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 08:41:35.727 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 08:41:35.732 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 08:42:32.193 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 08:43:35.726 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 08:43:35.730 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 08:45:35.838 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 08:45:35.841 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 08:47:35.817 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 08:47:35.821 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 08:49:35.738 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 08:49:35.742 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 08:51:35.782 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 08:51:35.786 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 08:53:35.776 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 08:53:35.779 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 08:55:35.797 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 08:55:35.801 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[I 08:57:35.725 NotebookApp] Saving file at /scikit_planet.ipynb
+[W 08:57:35.729 NotebookApp] Notebook scikit_planet.ipynb is not trusted
+[W 08:59:15.603 NotebookApp] 404 GET /api/contents/scikit_planet_2.ipynb?type=notebook&content=0&_=1648146323678 (127.0.0.1): No such file or directory: scikit_planet_2.ipynb
+[W 08:59:15.604 NotebookApp] No such file or directory: scikit_planet_2.ipynb
+[W 08:59:15.605 NotebookApp] 404 GET /api/contents/scikit_planet_2.ipynb?type=notebook&content=0&_=1648146323678 (127.0.0.1) 8.760000ms referer=http://127.0.0.1:8080/notebooks/scikit_planet.ipynb
+[I 08:59:15.951 NotebookApp] Uploading file to /scikit_planet_2.ipynb
+[W 08:59:15.955 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:01:35.469 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:01:35.472 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:03:35.476 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:03:35.480 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:05:35.494 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:05:35.497 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:07:35.499 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:07:35.502 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:09:35.478 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:09:35.482 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:11:35.510 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:11:35.514 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:15:35.537 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:15:35.543 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:17:35.530 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:17:35.535 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:19:35.547 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:19:35.551 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:21:35.561 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:21:35.565 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:23:35.560 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:23:35.564 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:25:35.555 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:25:35.559 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:27:35.560 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:27:35.564 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:29:35.568 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:29:35.571 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:31:35.576 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:31:35.581 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:33:35.596 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:33:35.599 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:35:35.584 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:35:35.588 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:37:35.596 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:37:35.599 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:39:35.595 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:39:35.599 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:41:35.596 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:41:35.600 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:43:35.600 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:43:35.604 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:45:35.606 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:45:35.610 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:47:35.621 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:47:35.624 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:49:35.633 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[W 09:49:35.638 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[I 09:51:35.626 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 09:52:26.182 NotebookApp] Copying scikit_planet_2.ipynb to 
+[W 09:52:26.220 NotebookApp] Notebook scikit_planet_2.ipynb is not trusted
+[W 09:52:26.244 NotebookApp] Notebook scikit_planet_2-Copy1.ipynb is not trusted
+[W 09:52:27.669 NotebookApp] Notebook scikit_planet_2-Copy1.ipynb is not trusted
+[I 09:52:28.166 NotebookApp] Kernel started: bbbda742-ac96-4c35-b0f4-64a486766ac4, name: python3
+[W 09:52:46.332 NotebookApp] 404 GET /api/contents/scikit_planet_tf.ipynb?type=notebook&content=0&_=1648374747941 (127.0.0.1): No such file or directory: scikit_planet_tf.ipynb
+[W 09:52:46.333 NotebookApp] No such file or directory: scikit_planet_tf.ipynb
+[W 09:52:46.334 NotebookApp] 404 GET /api/contents/scikit_planet_tf.ipynb?type=notebook&content=0&_=1648374747941 (127.0.0.1) 9.970000ms referer=http://127.0.0.1:8080/notebooks/scikit_planet_2-Copy1.ipynb
+[I 09:52:46.366 NotebookApp] Uploading file to /scikit_planet_tf.ipynb
+[W 09:52:46.370 NotebookApp] Notebook scikit_planet_tf.ipynb is not trusted
+[I 09:56:28.159 NotebookApp] Saving file at /scikit_planet_tf.ipynb
+[W 09:56:28.162 NotebookApp] Notebook scikit_planet_tf.ipynb is not trusted
+[I 09:57:35.642 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:04:28.203 NotebookApp] Saving file at /scikit_planet_tf.ipynb
+[W 10:04:28.208 NotebookApp] Notebook scikit_planet_tf.ipynb is not trusted
+[I 10:10:28.188 NotebookApp] Saving file at /scikit_planet_tf.ipynb
+[W 10:10:28.193 NotebookApp] Notebook scikit_planet_tf.ipynb is not trusted
+[I 10:11:35.661 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:12:28.167 NotebookApp] Saving file at /scikit_planet_tf.ipynb
+[W 10:12:28.172 NotebookApp] Notebook scikit_planet_tf.ipynb is not trusted
+[I 10:13:35.670 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:14:28.163 NotebookApp] Saving file at /scikit_planet_tf.ipynb
+[W 10:14:28.167 NotebookApp] Notebook scikit_planet_tf.ipynb is not trusted
+[I 10:16:28.202 NotebookApp] Saving file at /scikit_planet_tf.ipynb
+[W 10:16:28.207 NotebookApp] Notebook scikit_planet_tf.ipynb is not trusted
+[I 10:18:28.189 NotebookApp] Saving file at /scikit_planet_tf.ipynb
+[W 10:18:28.193 NotebookApp] Notebook scikit_planet_tf.ipynb is not trusted
+[I 10:19:36.329 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:22:28.202 NotebookApp] Saving file at /scikit_planet_tf.ipynb
+[W 10:22:28.207 NotebookApp] Notebook scikit_planet_tf.ipynb is not trusted
+[I 10:24:28.195 NotebookApp] Saving file at /scikit_planet_tf.ipynb
+[W 10:24:28.200 NotebookApp] Notebook scikit_planet_tf.ipynb is not trusted
+[I 10:25:36.352 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:26:28.192 NotebookApp] Saving file at /scikit_planet_tf.ipynb
+[W 10:26:28.196 NotebookApp] Notebook scikit_planet_tf.ipynb is not trusted
+[I 10:27:18.644 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 10:27:36.350 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:29:36.367 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:31:36.376 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:33:36.394 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:35:36.397 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:37:36.402 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:39:36.396 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:41:36.407 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:43:36.396 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:45:36.403 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:47:36.412 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:49:36.416 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:51:36.408 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:53:36.428 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:55:36.419 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:57:36.431 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 10:59:36.434 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:01:36.465 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:03:36.447 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:05:36.484 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:07:36.470 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:09:36.478 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:11:36.498 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:13:36.486 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:15:36.498 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:17:36.509 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:19:36.511 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:21:36.506 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:23:36.517 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:25:36.522 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:27:36.519 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:29:36.540 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:31:36.549 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:33:36.535 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:35:36.541 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:37:36.567 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:55:36.624 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:57:36.654 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 11:59:36.652 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:01:36.645 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:01:51.244 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 12:03:30.554 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 12:03:36.629 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:04:31.992 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 12:05:36.633 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:07:36.658 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:09:36.683 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:11:36.663 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:13:36.685 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:15:36.678 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:17:36.703 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:29:36.717 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:31:36.730 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:33:36.743 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:35:47.570 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 12:35:47.575 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 12:39:36.735 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:41:36.742 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:43:36.745 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:45:36.747 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:47:36.756 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:49:36.760 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:53:36.764 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:55:36.776 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:57:36.784 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 12:59:36.823 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:01:36.800 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:03:36.786 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:04:21.736 NotebookApp] Kernel interrupted: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 13:05:36.785 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:07:36.797 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:09:36.797 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:11:36.809 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:13:36.834 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:15:36.834 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:17:36.832 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:19:36.837 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:21:37.195 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:23:36.922 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:25:36.840 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:27:36.850 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:29:36.847 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:31:36.849 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:33:36.855 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:35:36.875 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:37:36.847 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:39:36.861 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:41:36.871 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:43:37.199 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:45:36.864 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:47:36.897 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:49:36.873 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:51:36.896 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:53:36.876 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:55:36.910 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:57:36.892 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 13:59:37.277 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 14:01:37.170 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 14:03:36.919 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 14:05:36.923 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 14:07:36.951 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 14:09:36.936 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 14:11:36.934 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 14:13:36.960 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 15:31:37.147 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 15:33:37.162 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 15:35:37.177 NotebookApp] Saving file at /scikit_planet_2.ipynb
+[I 15:35:47.842 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 15:35:47.847 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 15:37:47.801 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 15:37:47.806 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 15:44:29.002 NotebookApp] Saving file at /scikit_planet_tf.ipynb
+[W 15:44:29.005 NotebookApp] Notebook scikit_planet_tf.ipynb is not trusted
+[I 15:46:28.987 NotebookApp] Saving file at /scikit_planet_tf.ipynb
+[W 15:46:28.991 NotebookApp] Notebook scikit_planet_tf.ipynb is not trusted
+[W 15:47:38.806 NotebookApp] 404 GET /api/contents/tf_planet.ipynb?type=notebook&content=0&_=1648374747954 (127.0.0.1): No such file or directory: tf_planet.ipynb
+[W 15:47:38.807 NotebookApp] No such file or directory: tf_planet.ipynb
+[W 15:47:38.808 NotebookApp] 404 GET /api/contents/tf_planet.ipynb?type=notebook&content=0&_=1648374747954 (127.0.0.1) 9.750000ms referer=http://127.0.0.1:8080/notebooks/scikit_planet_tf.ipynb
+[I 15:47:38.832 NotebookApp] Uploading file to /tf_planet.ipynb
+[W 15:47:38.835 NotebookApp] Notebook tf_planet.ipynb is not trusted
+[I 15:47:48.625 NotebookApp] Starting buffering for bbbda742-ac96-4c35-b0f4-64a486766ac4:67b4eb0649b642e18cdf52b19e7c6961
+[I 15:47:55.034 NotebookApp] Starting buffering for b266a475-9223-45bc-a3db-15778cb38fc5:b226055842d94547b8c50e73e9898360
+[C 15:53:30.617 NotebookApp] received signal 15, stopping
+[I 15:53:30.620 NotebookApp] Shutting down 6 kernels
+[I 15:53:30.636 NotebookApp] Kernel shutdown: 25a92f06-eeb0-4b9b-a1e2-866adbd12ab8
+[I 15:53:30.637 NotebookApp] Kernel shutdown: bbbda742-ac96-4c35-b0f4-64a486766ac4
+[I 15:53:30.637 NotebookApp] Kernel shutdown: f572d391-d6e6-423f-a3b7-2db3573028a0
+[I 15:53:30.637 NotebookApp] Kernel shutdown: b266a475-9223-45bc-a3db-15778cb38fc5
+[I 15:53:30.637 NotebookApp] Kernel shutdown: 4d132db1-283c-4f87-b224-4b665c143b97
+[I 15:53:30.638 NotebookApp] Kernel shutdown: f42ecc7b-3744-4c7d-83c0-ad701ae39026
+[I 15:53:33.897 NotebookApp] Starting buffering for f572d391-d6e6-423f-a3b7-2db3573028a0:6eaca5d32aaa43e296b0da91e54b4406
+[I 15:53:33.915 NotebookApp] Kernel shutdown: f572d391-d6e6-423f-a3b7-2db3573028a0
+[E 15:53:33.916 NotebookApp] Uncaught exception DELETE /api/sessions/a2366499-1d44-49b4-b243-81c08b6f4775 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8080', method='DELETE', uri='/api/sessions/a2366499-1d44-49b4-b243-81c08b6f4775', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/site-packages/tornado/gen.py", line 769, in run
+        yielded = self.gen.throw(*exc_info)  # type: ignore
+      File "/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/site-packages/notebook/services/sessions/handlers.py", line 162, in delete
+        yield maybe_future(sm.delete_session(session_id))
+      File "/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/site-packages/tornado/gen.py", line 775, in run
+        yielded = self.gen.send(value)
+      File "/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/site-packages/notebook/services/sessions/sessionmanager.py", line 287, in delete_session
+        yield maybe_future(self.kernel_manager.shutdown_kernel(session['kernel']['id']))
+      File "/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 304, in shutdown_kernel
+        self.pinned_superclass.shutdown_kernel(self, kernel_id, now=now, restart=restart)
+      File "/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/site-packages/jupyter_client/utils.py", line 26, in wrapped
+        raise e
+      File "/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/site-packages/jupyter_client/utils.py", line 23, in wrapped
+        return loop.run_until_complete(future)
+      File "/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/site-packages/nest_asyncio.py", line 70, in run_until_complete
+        return f.result()
+      File "/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/asyncio/futures.py", line 181, in result
+        raise self._exception
+      File "/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/asyncio/tasks.py", line 249, in __step
+        result = coro.send(None)
+      File "/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/site-packages/jupyter_client/multikernelmanager.py", line 274, in _async_shutdown_kernel
+        if km.ready.exception():
+    asyncio.base_futures.InvalidStateError: Exception is not set.
+[W 15:53:34.061 NotebookApp] Unhandled error
+[E 15:53:34.062 NotebookApp] {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Accept-Language": "el-GR,el;q=0.8,en-US;q=0.5,en;q=0.3",
+      "Accept-Encoding": "gzip, deflate",
+      "X-Xsrftoken": "2|fbefe67e|4a03f7709e1f764e6980f332db70bab3|1647023080",
+      "X-Requested-With": "XMLHttpRequest",
+      "Origin": "http://127.0.0.1:8080",
+      "Connection": "keep-alive",
+      "Referer": "http://127.0.0.1:8080/notebooks/CNN_alex.ipynb",
+      "Cookie": "username-127-0-0-1-8080=\"2|1:0|10:1648135935|23:username-127-0-0-1-8080|44:MTg0NGI3ODA3ZWYxNGE1Yjk4ZmM5MDViZWY3MjE0NjI=|66e99f723a5ded062af08a001411ef9fc5becfdf71b5d551a26706022ba41e23\"; _xsrf=2|fbefe67e|4a03f7709e1f764e6980f332db70bab3|1647023080",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin"
+    }
+[E 15:53:34.062 NotebookApp] 500 DELETE /api/sessions/a2366499-1d44-49b4-b243-81c08b6f4775 (127.0.0.1) 149.690000ms referer=http://127.0.0.1:8080/notebooks/CNN_alex.ipynb
+[I 15:53:35.596 NotebookApp] Shutting down 0 terminals

@@ -1,0 +1,217 @@
+device: cpu
+train files: 40479, test files: 40669
+(1000, 2)
+        image_name                            tags
+18906  train_18906        clear primary road water
+30561  train_30561       agriculture clear primary
+31870  train_31870                          cloudy
+37561  train_37561                   clear primary
+607      train_607  agriculture clear primary road
+X train sample shape: (600, 30000)
+/data/miniconda3/envs/ntuaml4/lib/python3.7/site-packages/sklearn/manifold/_t_sne.py:793: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  FutureWarning,
+[t-SNE] Computing 91 nearest neighbors...
+[t-SNE] Indexed 600 samples in 0.015s...
+[t-SNE] Computed neighbors for 600 samples in 0.123s...
+[t-SNE] Computed conditional probabilities for sample 600 / 600
+[t-SNE] Mean sigma: 7.124398
+[t-SNE] Computed conditional probabilities in 0.040s
+[t-SNE] Iteration 50: error = 73.8699570, gradient norm = 0.4054960 (50 iterations in 0.069s)
+[t-SNE] Iteration 100: error = 78.2863617, gradient norm = 0.3690493 (50 iterations in 0.071s)
+[t-SNE] Iteration 150: error = 78.7509308, gradient norm = 0.3547020 (50 iterations in 0.070s)
+[t-SNE] Iteration 200: error = 77.8809204, gradient norm = 0.3634909 (50 iterations in 0.079s)
+[t-SNE] Iteration 250: error = 80.6719131, gradient norm = 0.3775358 (50 iterations in 0.101s)
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 80.671913
+[t-SNE] Iteration 300: error = 1.4404706, gradient norm = 0.0051589 (50 iterations in 0.093s)
+[t-SNE] Iteration 350: error = 1.1493295, gradient norm = 0.0027356 (50 iterations in 0.091s)
+[t-SNE] Iteration 400: error = 1.0395657, gradient norm = 0.0012004 (50 iterations in 0.088s)
+[t-SNE] Iteration 450: error = 0.9523652, gradient norm = 0.0008671 (50 iterations in 0.085s)
+[t-SNE] Iteration 500: error = 0.9510967, gradient norm = 0.0002225 (50 iterations in 0.085s)
+[t-SNE] KL divergence after 500 iterations: 0.951097
+X embedded shape: (600, 2)
+Images shape: torch.Size([64, 3, 224, 224]) Labels shape: torch.Size([64, 17])
+train bare_ground: 2.3750% (19)
+val bare_ground: 3.0000% (6)
+
+train selective_logging: 1.5000% (12)
+val selective_logging: 1.0000% (2)
+
+train artisinal_mine: 0.8750% (7)
+val artisinal_mine: 1.0000% (2)
+
+train blooming: 0.7500% (6)
+val blooming: 0.5000% (1)
+
+train slash_burn: 0.2500% (2)
+val slash_burn: 0.0000% (0)
+
+train blow_down: 0.5000% (4)
+val blow_down: 0.5000% (1)
+
+train conventional_mine: 0.2500% (2)
+val conventional_mine: 0.5000% (1)
+
+  0%|          | 0/13 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/4 [00:00<?, ?it/s]
+epoch: 0/10 -- train loss: 0.5593156539476835, val loss: 0.4725361093878746 -- train fbeta_score: 0.48582675066742637, val fbeta_score: 0.5040639837527967
+  0%|          | 0/13 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/4 [00:00<?, ?it/s]
+epoch: 1/10 -- train loss: 0.3386373015550467, val loss: 0.2613907977938652 -- train fbeta_score: 0.597662246172866, val fbeta_score: 0.779570752219451
+  0%|          | 0/13 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/4 [00:00<?, ?it/s]
+epoch: 2/10 -- train loss: 0.22196386066766885, val loss: 0.20436697080731392 -- train fbeta_score: 0.7913973605982036, val fbeta_score: 0.8672155101142703
+  0%|          | 0/13 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/4 [00:00<?, ?it/s]
+epoch: 3/10 -- train loss: 0.1733240164243258, val loss: 0.16120478138327599 -- train fbeta_score: 0.8453052935554376, val fbeta_score: 0.8732641476420128
+  0%|          | 0/13 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/4 [00:00<?, ?it/s]
+epoch: 4/10 -- train loss: 0.1526487675996927, val loss: 0.16250666975975037 -- train fbeta_score: 0.8710471114969329, val fbeta_score: 0.8642841540210572
+  0%|          | 0/13 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/4 [00:00<?, ?it/s]
+epoch: 5/10 -- train loss: 0.13625658590060014, val loss: 0.1556083895266056 -- train fbeta_score: 0.8812366889630977, val fbeta_score: 0.8762561900425623
+  0%|          | 0/13 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/4 [00:00<?, ?it/s]
+epoch: 6/10 -- train loss: 0.12143621994898869, val loss: 0.16482841223478317 -- train fbeta_score: 0.8969663211840659, val fbeta_score: 0.8664773100266843
+  0%|          | 0/13 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/4 [00:00<?, ?it/s]
+epoch: 7/10 -- train loss: 0.11152093399029511, val loss: 0.15016186982393265 -- train fbeta_score: 0.9080723064971502, val fbeta_score: 0.868774509009179
+  0%|          | 0/13 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/4 [00:00<?, ?it/s]
+epoch: 8/10 -- train loss: 0.11477251866689095, val loss: 0.14151552692055702 -- train fbeta_score: 0.9043521159225736, val fbeta_score: 0.8685416078435952
+  0%|          | 0/13 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/4 [00:00<?, ?it/s]
+epoch: 9/10 -- train loss: 0.10623372288850638, val loss: 0.1455297637730837 -- train fbeta_score: 0.9149564133104251, val fbeta_score: 0.8750169241724334
+Traceback (most recent call last):
+  File "ResNet_stella.py", line 554, in <module>
+    fig.save_fig('26.png')
+AttributeError: 'Figure' object has no attribute 'save_fig'

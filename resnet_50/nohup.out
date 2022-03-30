@@ -1,0 +1,351 @@
+device: cpu
+train files: 40479, test files: 40669
+(2005, 4)
+   Unnamed: 0              ...                                  list_tags
+0       15745              ...               ['haze', 'primary', 'water']
+1       28604              ...                        ['haze', 'primary']
+2       37088              ...                        ['haze', 'primary']
+3       17034              ...                        ['haze', 'primary']
+4       22727              ...                        ['haze', 'primary']
+
+[5 rows x 4 columns]
+X train sample shape: (600, 30000)
+/data/miniconda3/envs/ntuaml4/lib/python3.7/site-packages/sklearn/manifold/_t_sne.py:793: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  FutureWarning,
+[t-SNE] Computing 91 nearest neighbors...
+[t-SNE] Indexed 600 samples in 0.015s...
+[t-SNE] Computed neighbors for 600 samples in 0.128s...
+[t-SNE] Computed conditional probabilities for sample 600 / 600
+[t-SNE] Mean sigma: 7.232238
+[t-SNE] Computed conditional probabilities in 0.040s
+[t-SNE] Iteration 50: error = 76.9986572, gradient norm = 0.4160267 (50 iterations in 0.074s)
+[t-SNE] Iteration 100: error = 82.7773285, gradient norm = 0.3256371 (50 iterations in 0.075s)
+[t-SNE] Iteration 150: error = 78.7319565, gradient norm = 0.3880349 (50 iterations in 0.074s)
+[t-SNE] Iteration 200: error = 81.8200531, gradient norm = 0.3397959 (50 iterations in 0.071s)
+[t-SNE] Iteration 250: error = 83.5052643, gradient norm = 0.3390990 (50 iterations in 0.074s)
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 83.505264
+[t-SNE] Iteration 300: error = 1.3636615, gradient norm = 0.0053122 (50 iterations in 0.070s)
+[t-SNE] Iteration 350: error = 1.0745595, gradient norm = 0.0046416 (50 iterations in 0.069s)
+[t-SNE] Iteration 400: error = 1.0249721, gradient norm = 0.0009720 (50 iterations in 0.064s)
+[t-SNE] Iteration 450: error = 1.0008007, gradient norm = 0.0009954 (50 iterations in 0.063s)
+[t-SNE] Iteration 500: error = 0.9890325, gradient norm = 0.0004447 (50 iterations in 0.062s)
+[t-SNE] KL divergence after 500 iterations: 0.989033
+X embedded shape: (600, 2)
+Images shape: torch.Size([64, 3, 224, 224]) Labels shape: torch.Size([64, 17])
+train bare_ground: 2.6808% (43)
+val bare_ground: 2.4938% (10)
+
+train selective_logging: 0.8728% (14)
+val selective_logging: 1.2469% (5)
+
+train artisinal_mine: 1.3092% (21)
+val artisinal_mine: 2.2444% (9)
+
+train blooming: 1.1845% (19)
+val blooming: 0.7481% (3)
+
+train slash_burn: 1.0599% (17)
+val slash_burn: 0.9975% (4)
+
+train blow_down: 0.1247% (2)
+val blow_down: 0.4988% (2)
+
+train conventional_mine: 0.3117% (5)
+val conventional_mine: 0.4988% (2)
+
+  0%|          | 0/26 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/7 [00:00<?, ?it/s]
+epoch: 0/10 -- train loss: 0.44289950682566714, val loss: 0.2583155504294804 -- train fbeta_score: 0.6023580536561872, val fbeta_score: 0.8155959852586515
+  0%|          | 0/26 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/7 [00:00<?, ?it/s]
+epoch: 1/10 -- train loss: 0.2339487402484967, val loss: 0.179286818419184 -- train fbeta_score: 0.8104007076408757, val fbeta_score: 0.8710115888192717
+  0%|          | 0/26 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/7 [00:00<?, ?it/s]
+epoch: 2/10 -- train loss: 0.1865024325939325, val loss: 0.15804740573678697 -- train fbeta_score: 0.855931274428353, val fbeta_score: 0.8799849478389218
+  0%|          | 0/26 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/7 [00:00<?, ?it/s]
+epoch: 3/10 -- train loss: 0.15960282717759794, val loss: 0.14765969770295279 -- train fbeta_score: 0.8758537472352734, val fbeta_score: 0.8869599741108825
+  0%|          | 0/26 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/7 [00:00<?, ?it/s]
+epoch: 4/10 -- train loss: 0.1543103106893026, val loss: 0.14185565284320287 -- train fbeta_score: 0.8836872732432719, val fbeta_score: 0.8884731469210306
+  0%|          | 0/26 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/7 [00:00<?, ?it/s]
+epoch: 5/10 -- train loss: 0.13581140167438066, val loss: 0.1479136837380273 -- train fbeta_score: 0.8954909511245416, val fbeta_score: 0.8903028830068508
+  0%|          | 0/26 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/7 [00:00<?, ?it/s]
+epoch: 6/10 -- train loss: 0.13691001242169967, val loss: 0.1476178147963115 -- train fbeta_score: 0.9010178779330561, val fbeta_score: 0.8933835477323862
+  0%|          | 0/26 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/7 [00:00<?, ?it/s]
+epoch: 7/10 -- train loss: 0.11773591288007222, val loss: 0.1348238331930978 -- train fbeta_score: 0.9145165466679913, val fbeta_score: 0.9007926130922856
+  0%|          | 0/26 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/7 [00:00<?, ?it/s]
+epoch: 8/10 -- train loss: 0.11440652838120094, val loss: 0.13393842428922653 -- train fbeta_score: 0.9179876707655148, val fbeta_score: 0.9023819982739654
+  0%|          | 0/26 [00:00<?, ?it/s]
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+  0%|          | 0/7 [00:00<?, ?it/s]
+epoch: 9/10 -- train loss: 0.1081156561580988, val loss: 0.13584902456828526 -- train fbeta_score: 0.9240325061176158, val fbeta_score: 0.9019598317984157
+  0%|          | 0/17 [00:00<?, ?it/s]
+threshs: [0.11, 0.09, 0.15, 0.05, 0.04, 0.25, 0.2, 0.04, 0.13, 0.12, 0.07, 0.18, 0.32, 0.15, 0.06, 0.12, 0.16] -- best score: 0.9137960774092826
+Traceback (most recent call last):
+  File "ResNet_stella.py", line 652, in <module>
+    fig.savefig('conf_matr_50.png')
+AttributeError: 'Figure' object has no attribute 'savefig'

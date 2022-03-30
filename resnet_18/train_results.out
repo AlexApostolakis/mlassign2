@@ -1,0 +1,482 @@
+[I 18:22:56.280 NotebookApp] Serving notebooks from local directory: /data2/ntua/code/resnet_vm3
+[I 18:22:56.281 NotebookApp] Jupyter Notebook 6.4.8 is running at:
+[I 18:22:56.281 NotebookApp] http://localhost:8080/?token=7bcd151569b8624b788259d2fb53c96b366eaafb4d838c23
+[I 18:22:56.281 NotebookApp]  or http://127.0.0.1:8080/?token=7bcd151569b8624b788259d2fb53c96b366eaafb4d838c23
+[I 18:22:56.281 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:22:56.295 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/noa/.local/share/jupyter/runtime/nbserver-11175-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8080/?token=7bcd151569b8624b788259d2fb53c96b366eaafb4d838c23
+     or http://127.0.0.1:8080/?token=7bcd151569b8624b788259d2fb53c96b366eaafb4d838c23
+[W 18:24:05.017 NotebookApp] Clearing invalid/expired login cookie username-localhost-8080
+[W 18:24:05.022 NotebookApp] Clearing invalid/expired login cookie username-localhost-8080
+[I 18:24:05.023 NotebookApp] 302 GET /tree (127.0.0.1) 7.220000ms
+[I 18:24:40.906 NotebookApp] 302 GET /?token=7bcd151569b8624b788259d2fb53c96b366eaafb4d838c23 (127.0.0.1) 1.230000ms
+[W 18:24:46.262 NotebookApp] Notebook ResNet_alex.ipynb is not trusted
+[I 18:24:47.508 NotebookApp] Kernel started: 6a193cdc-7428-41c6-9b16-8e8b889149cd, name: python3
+[I 18:26:25.597 NotebookApp] 302 GET /tree (127.0.0.1) 1.790000ms
+[W 18:26:28.738 NotebookApp] Forbidden
+[W 18:26:28.739 NotebookApp] 403 GET /api/config/tree?_=1647023189074 (127.0.0.1) 2.320000ms referer=http://127.0.0.1:8080/tree
+[W 18:26:28.742 NotebookApp] Forbidden
+[W 18:26:28.742 NotebookApp] 403 GET /api/config/common?_=1647023189075 (127.0.0.1) 1.630000ms referer=http://127.0.0.1:8080/tree
+[W 18:26:28.744 NotebookApp] Forbidden
+[W 18:26:28.745 NotebookApp] 403 GET /api/terminals?_=1647023189076 (127.0.0.1) 1.490000ms referer=http://127.0.0.1:8080/tree
+[W 18:26:28.747 NotebookApp] Forbidden
+[W 18:26:28.748 NotebookApp] 403 GET /api/kernelspecs (127.0.0.1) 1.770000ms referer=http://127.0.0.1:8080/tree
+[W 18:26:28.750 NotebookApp] Forbidden
+[W 18:26:28.751 NotebookApp] 403 GET /api/sessions?_=1647023189077 (127.0.0.1) 1.640000ms referer=http://127.0.0.1:8080/tree
+[W 18:26:28.752 NotebookApp] Forbidden
+[W 18:26:28.753 NotebookApp] 403 GET /api/terminals?_=1647023189078 (127.0.0.1) 0.920000ms referer=http://127.0.0.1:8080/tree
+[I 18:26:49.391 NotebookApp] Saving file at /ResNet_alex.ipynb
+[W 18:26:49.395 NotebookApp] Notebook ResNet_alex.ipynb is not trusted
+[W 18:28:35.234 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 18:28:36.449 NotebookApp] Kernel started: 3a5b24e5-d96f-41f5-86ab-38c31dca6889, name: python3
+[I 18:30:37.417 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 18:30:37.423 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 18:36:37.399 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 18:36:37.403 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 18:38:37.211 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 18:38:37.216 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 18:40:37.170 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 18:40:37.174 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 18:42:37.403 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 18:42:37.408 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 18:44:37.436 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 18:44:37.440 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 18:46:37.379 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 18:46:37.383 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 18:48:37.036 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 18:48:37.040 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 18:50:36.998 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 18:50:37.003 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 18:52:37.084 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 18:52:37.089 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 19:14:37.241 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 19:14:37.246 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 19:20:37.132 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 19:20:37.136 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 19:22:37.806 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 19:22:37.811 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 19:24:37.238 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 19:24:37.243 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 19:56:37.664 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 19:56:37.669 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:06:37.416 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:06:37.421 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:08:37.220 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:08:37.224 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:10:37.171 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:10:37.175 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:12:37.234 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:12:37.240 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:14:37.201 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:14:37.206 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:16:37.673 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:16:37.678 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:18:37.404 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:18:37.411 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:20:37.241 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:20:37.245 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:22:37.199 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:22:37.202 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:28:37.310 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:28:37.325 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:34:37.306 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:34:37.376 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:36:37.667 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:36:37.675 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:42:37.380 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:42:37.391 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:50:37.333 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:50:37.341 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 20:56:37.511 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 20:56:37.518 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 21:02:37.382 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 21:02:37.386 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 21:04:37.374 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 21:04:37.382 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 21:10:37.378 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 21:10:37.386 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 21:16:37.586 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 21:16:37.590 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 21:18:37.627 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 21:18:37.639 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 21:24:37.338 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 21:24:37.342 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 21:28:10.114 NotebookApp] Starting buffering for 6a193cdc-7428-41c6-9b16-8e8b889149cd:7fcc56b2fbca4cdf8b08fe33c1c91952
+[I 21:30:37.362 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 21:30:37.371 NotebookApp] Notebook CNN_alex.ipynb is not trusted
+[I 21:40:37.342 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 21:41:06.869 NotebookApp] Kernel interrupted: 3a5b24e5-d96f-41f5-86ab-38c31dca6889
+[I 21:42:37.289 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 21:48:37.280 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 21:54:37.472 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 22:00:37.426 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 22:06:37.659 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 22:12:37.419 NotebookApp] Saving file at /CNN_alex.ipynb
+[I 22:16:37.554 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 01:16:37.247 NotebookApp] WebSocket ping timeout after 119980 ms.
+[I 01:16:42.276 NotebookApp] Starting buffering for 3a5b24e5-d96f-41f5-86ab-38c31dca6889:bd356c67e016450490f1f9021563e119
+[W 09:51:46.952 NotebookApp] Forbidden
+[W 09:51:46.974 NotebookApp] 403 GET /api/sessions?_=1647001780150 (127.0.0.1) 26.910000ms referer=http://localhost:8080/tree
+[W 09:51:46.975 NotebookApp] Forbidden
+[W 09:51:46.975 NotebookApp] 403 GET /api/terminals?_=1647001780151 (127.0.0.1) 25.450000ms referer=http://localhost:8080/tree
+[I 09:51:49.464 NotebookApp] 302 GET /tree (127.0.0.1) 2.790000ms
+[W 09:51:57.895 NotebookApp] 404 GET /static/plotly.js?v=20220311182255 (127.0.0.1) 33.760000ms referer=http://127.0.0.1:8080/notebooks/CNN_alex.ipynb
+[I 10:26:46.292 NotebookApp] Starting buffering for 3a5b24e5-d96f-41f5-86ab-38c31dca6889:efe383d2ef76488888e01ff18d7c30c8
+[W 10:26:48.257 NotebookApp] 404 GET /static/plotly.js?v=20220311182255 (127.0.0.1) 2.660000ms referer=http://127.0.0.1:8080/notebooks/CNN_alex.ipynb
+[I 10:28:49.696 NotebookApp] Saving file at /CNN_alex.ipynb
+[W 11:21:18.290 NotebookApp] WebSocket ping timeout after 119981 ms.
+[I 11:21:23.305 NotebookApp] Starting buffering for 3a5b24e5-d96f-41f5-86ab-38c31dca6889:4f6517eb338b47198464b485558211ba
+device: cpu
+train files: 40479, test files: 40669
+(2005, 4)
+   Unnamed: 0   image_name                tags                     list_tags
+0       15745  train_15745  haze primary water  ['haze', 'primary', 'water']
+1       28604  train_28604        haze primary           ['haze', 'primary']
+2       37088  train_37088        haze primary           ['haze', 'primary']
+3       17034  train_17034        haze primary           ['haze', 'primary']
+4       22727  train_22727        haze primary           ['haze', 'primary']
+X train sample shape: (600, 30000)
+/home/noa/miniconda3/envs/ntuaml3/lib/python3.7/site-packages/sklearn/manifold/_t_sne.py:793: FutureWarning: The default learning rate in TSNE will change from 200.0 to 'auto' in 1.2.
+  FutureWarning,
+[t-SNE] Computing 91 nearest neighbors...
+[t-SNE] Indexed 600 samples in 0.016s...
+[t-SNE] Computed neighbors for 600 samples in 0.131s...
+[t-SNE] Computed conditional probabilities for sample 600 / 600
+[t-SNE] Mean sigma: 7.232238
+[t-SNE] Computed conditional probabilities in 0.045s
+[t-SNE] Iteration 50: error = 76.9986496, gradient norm = 0.4160267 (50 iterations in 0.082s)
+[t-SNE] Iteration 100: error = 82.7773209, gradient norm = 0.3256371 (50 iterations in 0.080s)
+[t-SNE] Iteration 150: error = 78.7319489, gradient norm = 0.3880349 (50 iterations in 0.076s)
+[t-SNE] Iteration 200: error = 81.8200531, gradient norm = 0.3397959 (50 iterations in 0.100s)
+[t-SNE] Iteration 250: error = 83.5052719, gradient norm = 0.3390990 (50 iterations in 0.079s)
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 83.505272
+[t-SNE] Iteration 300: error = 1.3636616, gradient norm = 0.0053122 (50 iterations in 0.069s)
+[t-SNE] Iteration 350: error = 1.0745595, gradient norm = 0.0046416 (50 iterations in 0.070s)
+[t-SNE] Iteration 400: error = 1.0249721, gradient norm = 0.0009720 (50 iterations in 0.064s)
+[t-SNE] Iteration 450: error = 1.0008007, gradient norm = 0.0009954 (50 iterations in 0.063s)
+[t-SNE] Iteration 500: error = 0.9890324, gradient norm = 0.0004447 (50 iterations in 0.067s)
+[t-SNE] KL divergence after 500 iterations: 0.989032
+X embedded shape: (600, 2)
+Images shape: torch.Size([64, 3, 224, 224]) Labels shape: torch.Size([64, 17])
+train bare_ground: 2.6808% (43)
+val bare_ground: 2.4938% (10)
+
+train selective_logging: 0.8728% (14)
+val selective_logging: 1.2469% (5)
+
+train artisinal_mine: 1.3092% (21)
+val artisinal_mine: 2.2444% (9)
+
+train blooming: 1.1845% (19)
+val blooming: 0.7481% (3)
+
+train slash_burn: 1.0599% (17)
+val slash_burn: 0.9975% (4)
+
+train blow_down: 0.1247% (2)
+val blow_down: 0.4988% (2)
+
+train conventional_mine: 0.3117% (5)
+val conventional_mine: 0.4988% (2)
+
+HBox(children=(FloatProgress(value=0.0, max=26.0), HTML(value='')))
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+HBox(children=(FloatProgress(value=0.0, max=7.0), HTML(value='')))
+epoch: 0/10 -- train loss: 0.5294876098632812, val loss: 0.3884443129811968 -- train fbeta_score: 0.5460457880870685, val fbeta_score: 0.5811943585169661
+HBox(children=(FloatProgress(value=0.0, max=26.0), HTML(value='')))
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+HBox(children=(FloatProgress(value=0.0, max=7.0), HTML(value='')))
+epoch: 1/10 -- train loss: 0.3034787166577119, val loss: 0.22378201356955937 -- train fbeta_score: 0.7066562293554264, val fbeta_score: 0.8510316026245147
+HBox(children=(FloatProgress(value=0.0, max=26.0), HTML(value='')))
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+HBox(children=(FloatProgress(value=0.0, max=7.0), HTML(value='')))
+epoch: 2/10 -- train loss: 0.21513521327422216, val loss: 0.1757392563990184 -- train fbeta_score: 0.8401686803116905, val fbeta_score: 0.8835325225826539
+HBox(children=(FloatProgress(value=0.0, max=26.0), HTML(value='')))
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+HBox(children=(FloatProgress(value=0.0, max=7.0), HTML(value='')))
+epoch: 3/10 -- train loss: 0.17704367637634277, val loss: 0.1563908691917147 -- train fbeta_score: 0.8687919388603433, val fbeta_score: 0.8861054216638641
+HBox(children=(FloatProgress(value=0.0, max=26.0), HTML(value='')))
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+HBox(children=(FloatProgress(value=0.0, max=7.0), HTML(value='')))
+epoch: 4/10 -- train loss: 0.16353237342375976, val loss: 0.15076328814029694 -- train fbeta_score: 0.881205711103291, val fbeta_score: 0.8941620279548957
+HBox(children=(FloatProgress(value=0.0, max=26.0), HTML(value='')))
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+HBox(children=(FloatProgress(value=0.0, max=7.0), HTML(value='')))
+epoch: 5/10 -- train loss: 0.15390804123419982, val loss: 0.1521252989768982 -- train fbeta_score: 0.8867574922382427, val fbeta_score: 0.8898009726289888
+HBox(children=(FloatProgress(value=0.0, max=26.0), HTML(value='')))
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+HBox(children=(FloatProgress(value=0.0, max=7.0), HTML(value='')))
+epoch: 6/10 -- train loss: 0.14400623366236687, val loss: 0.14997209821428573 -- train fbeta_score: 0.8956085948756435, val fbeta_score: 0.8962997940473524
+HBox(children=(FloatProgress(value=0.0, max=26.0), HTML(value='')))
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+HBox(children=(FloatProgress(value=0.0, max=7.0), HTML(value='')))
+epoch: 7/10 -- train loss: 0.13430584537295195, val loss: 0.1518908611365727 -- train fbeta_score: 0.9023219360379061, val fbeta_score: 0.8950768564434072
+HBox(children=(FloatProgress(value=0.0, max=26.0), HTML(value='')))
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+HBox(children=(FloatProgress(value=0.0, max=7.0), HTML(value='')))
+epoch: 8/10 -- train loss: 0.13050994764153773, val loss: 0.1385918685368129 -- train fbeta_score: 0.9023550663359677, val fbeta_score: 0.9007898206697496
+HBox(children=(FloatProgress(value=0.0, max=26.0), HTML(value='')))
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+stella
+HBox(children=(FloatProgress(value=0.0, max=7.0), HTML(value='')))
+epoch: 9/10 -- train loss: 0.12935333555707565, val loss: 0.1425634558711733 -- train fbeta_score: 0.9062853132464257, val fbeta_score: 0.8991121080317577
+HBox(children=(FloatProgress(value=0.0, max=17.0), HTML(value='')))
+
+threshs: [0.16, 0.11, 0.12, 0.14, 0.07, 0.25, 0.23, 0.11, 0.19, 0.31, 0.22, 0.16, 0.48, 0.23, 0.13, 0.12, 0.11] -- best score: 0.9126409106034943
+Traceback (most recent call last):
+  File "ResNet_stella.py", line 652, in <module>
+    fig.savefig('conf_matr_18.png')
+AttributeError: 'Figure' object has no attribute 'savefig'
